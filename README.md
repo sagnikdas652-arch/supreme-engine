@@ -7,10 +7,10 @@ Here it's Start
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-## 🛠 Features
-* **Feature A:** Description of why this is cool.
-* **Feature B:** Another useful functionality.
-* **Feature C:** Something that makes this project unique.
+## 🛠 Feature
+ Data-Oriented Tech Stack (DOTS): Moving away from traditional Object-Oriented Programming to focus on how data is laid out in memory, maximizing CPU cache hits.
+Multithreaded Task Scheduler: A "job system" that intelligently distributes workloads across all available CPU cores.
+Zero-Overhead Memory Management: Custom allocators that prevent fragmentation and "garbage collection" stutters.
 
 ## 📦 Installation
 
