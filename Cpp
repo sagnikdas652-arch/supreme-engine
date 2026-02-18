@@ -1,0 +1,49 @@
+#include <iostream>
+#include <chrono>
+
+class SimpleEngine {
+public:
+    bool isRunning = true;
+
+    void Run() {
+        // Initialize systems (Graphics, Audio, Physics)
+        Start();
+
+        while (isRunning) {
+            // Calculate Delta Time (time between frames)
+            auto frameStart = std::chrono::high_resolution_clock::now();
+
+            ProcessInput();
+            Update();
+            Render();
+
+            // Example exit condition
+            if (/* some condition */ false) isRunning = false;
+        }
+
+        CleanUp();
+    }
+
+private:
+    void Start() { std::cout << "Engine Initialized..." << std::endl; }
+    
+    void ProcessInput() {
+        // Check for keyboard/mouse events
+    }
+
+    void Update() {
+        // Handle physics and game logic
+    }
+
+    void Render() {
+        // Send data to the GPU (DirectX, OpenGL, or Vulkan)
+    }
+
+    void CleanUp() { std::cout << "Engine Shut Down." << std::endl; }
+};
+
+int main() {
+    SimpleEngine engine;
+    engine.Run();
+    return 0;
+}
