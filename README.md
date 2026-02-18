@@ -2,7 +2,8 @@
 Here it's Start
 # 🚀 Supreme Engine
 
-> A brief, one-sentence description of what this project does and who it's for.
+> The Supreme Engine is a high-performance, open-source 3D game engine designed to facilitate the creation of complex, visually rich games with an emphasis on modern rendering techniques and developer accessibility.
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
